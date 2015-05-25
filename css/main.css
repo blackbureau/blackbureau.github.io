@@ -5,3 +5,7 @@ color:#FFC3A0;
 p {
   color:#FFC3A0;
 }
+
+a:hover {
+  text-decoration:none;
+}
