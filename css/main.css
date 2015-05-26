@@ -10,6 +10,14 @@ font-family:Courier;
   width:20%;
 }
 
+#box2 {
+  background-color: #FF9999;
+  border: 1px solid #FF9999;
+  height:200px;
+  width:10%;
+  clear:both;
+}
+
 h1 {
   float:right;
 }
