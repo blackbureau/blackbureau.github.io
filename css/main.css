@@ -29,15 +29,15 @@ font-family:Courier;
   width:50%;
   margin-left:800px;
   margin-top:400px;
+}
   
 #box3 {
   background-color:#FFFFCC;
   border: 2px solid #FFFFCC;
   border-radius:50px;
   height:300px;
-  width:10%;
-  margin-left:100px;
-  margin-top:80px;
+  width:100%;
+  margin: 20px 30px 100px 100px;
 }
 
 h1 {
