@@ -8,6 +8,7 @@ font-family:Courier;
   border-radius:5px;
   height:100px;
   width:20%;
+  position:fixed;
 }
 
 #box2 {
@@ -17,7 +18,7 @@ font-family:Courier;
   width:10%;
   clear:both;
   margin-left:1000px;
-  margin-top:1000px;
+  margin-top:500px;
 }
 
 h1 {
