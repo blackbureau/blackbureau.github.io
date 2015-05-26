@@ -27,8 +27,8 @@ font-family:Courier;
   border-radius:100px;
   height:50px;
   width:50%;
-  margin-left 800px;
-  margin-top 400px;
+  margin-left:800px;
+  margin-top:400px;
   
 #box4 {
   background-color:#FFFFCC;
@@ -36,6 +36,7 @@ font-family:Courier;
   border-radius:50px;
   height:300px;
   width:10%;
+  margin-left:300px;
   margin-top:80px;
 }
 
