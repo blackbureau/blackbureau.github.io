@@ -2,6 +2,8 @@ body {
 background-color:#DAEE85;
 font-family:Courier;
 }
-p {
-  color:#FFBD9C;
+#box {
+  background-color:#FF9900;
+  border:10px dashed #FF9900;
+  border-radius:5px;
 }
