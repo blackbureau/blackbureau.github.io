@@ -21,6 +21,17 @@ font-family:Courier;
   margin-top:50px;
 }
 
+#box3 {
+  background-color:#E0C2FF;
+  border:1px solid #E0C2FF;
+  border-radius:100px;
+  height:50px;
+  width:50%;
+  margin-left 800px;
+  margin-top 400px;
+  
+}
+
 h1 {
   float:right;
 }
