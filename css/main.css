@@ -30,6 +30,13 @@ font-family:Courier;
   margin-left 800px;
   margin-top 400px;
   
+#box4 {
+  background-color:#FFFFCC;
+  border: 2px solid #FFFFCC;
+  border-radius:5px;
+  height:30px;
+  width:10%;
+  margin-top:800px;
 }
 
 h1 {
