@@ -3,9 +3,9 @@ background-color:#DAEE85;
 font-family:Courier;
 }
 #box {
-  background-color:#FF9900;
-  border:10px dashed #FF9900;
+  background-color:white;
+  border:10px dashed white;
   border-radius:5px;
-  height:5px;
+  height:50px;
   width:50%;
 }
