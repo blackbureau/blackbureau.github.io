@@ -6,4 +6,6 @@ font-family:Courier;
   background-color:#FF9900;
   border:10px dashed #FF9900;
   border-radius:5px;
+  height:5px;
+  width:50%;
 }
