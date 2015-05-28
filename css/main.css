@@ -11,6 +11,10 @@ font-family:Courier;
   position:fixed;
 }
 
+* { 
+  border: 2px dashed green;
+}
+
 
 #box4 {
   background-color:blue;
