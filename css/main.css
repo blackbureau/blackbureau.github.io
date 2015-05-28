@@ -46,6 +46,6 @@ h1 {
 }
 
 div p {
-  color:blue;
-  padding:auto;
+  color:yellow;
+  padding:10px 10px 10px 10px;
 }
