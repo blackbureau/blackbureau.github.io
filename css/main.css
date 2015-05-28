@@ -9,7 +9,7 @@ font-family:Courier;
   height:100px;
   width:20%;
   position:fixed;
-  display:block;
+  display:inline-block;
 }
 
 * { 
