@@ -11,15 +11,6 @@ font-family:Courier;
   position:fixed;
 }
 
-#box2 {
-  background-color: green;
-  border: 1px green;
-  height:200px;
-  width:10%;
-  clear:both;
-  margin-left:1000px;
-  margin-top:50px;
-}
 
 #box4 {
   background-color:blue;
