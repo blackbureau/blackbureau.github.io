@@ -1,1 +1,6 @@
-
+div {
+  width:900px;
+  height: 400px;
+  color:red;
+  border-radius: 10px;
+}
