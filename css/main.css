@@ -1,4 +1,5 @@
-div {
+#large {
+  border:1px red solid;
   width:900px;
   height: 400px;
   color:red;
