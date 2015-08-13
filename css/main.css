@@ -6,11 +6,11 @@
       #vesper {
         background-color:white;
         animation-name:col;
-        animation-duration:4s;
+        animation-duration:9s;
         animation-timing-function:liniar;
         animation-iteration-count:infinite;
         -webkit-animation-name:col;
-         -webkit-animation-duration:4s;
+         -webkit-animation-duration:9s;
          -webkit-animation-timing-function:liniar;
          -webkit-animation-iteration-count:infinite;
            -moz-animation-name:col;
