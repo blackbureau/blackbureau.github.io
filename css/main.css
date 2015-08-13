@@ -1,20 +1,23 @@
+    /********************************************
+     PAGE: VESPER
+    *********************************************/
     
-    
-      /*body {*/
-      /*  background-color:white;*/
-      /*  animation-name:col;*/
-      /*  animation-duration:4s;*/
-      /*  animation-timing-function:liniar;*/
-      /*  animation-iteration-count:infinite;*/
-      /*  -webkit-animation-name:col;*/
-      /*   -webkit-animation-duration:4s;*/
-      /*   -webkit-animation-timing-function:liniar;*/
-      /*   -webkit-animation-iteration-count:infinite;*/
-      /*     -moz-animation-name:col;*/
-      /*     -moz-animation-duration:4s;*/
-      /*     -moz-animation-timing-function:liniar;*/
-      /*     -moz-animation-iteration-count:infinite;*/
-      /*}*/
+    /*animation*/
+      #vesper {
+        background-color:white;
+        animation-name:col;
+        animation-duration:4s;
+        animation-timing-function:liniar;
+        animation-iteration-count:infinite;
+        -webkit-animation-name:col;
+         -webkit-animation-duration:4s;
+         -webkit-animation-timing-function:liniar;
+         -webkit-animation-iteration-count:infinite;
+           -moz-animation-name:col;
+           -moz-animation-duration:4s;
+           -moz-animation-timing-function:liniar;
+           -moz-animation-iteration-count:infinite;
+      }
       
       /*body {*/
       /*  background-color:white;*/
@@ -50,7 +53,12 @@
         margin-top: 350px;
       } 
             
-            p {
-                font-family: 'Monsieur La Doulaise';
+            a {
+                font-family: 'Megrim', cursive;
                 font-size: 30px;
+                color:black;
+                text-align:center;
+                text-decoration: none;
+                margin: 350px 0 0;
             }
+            
