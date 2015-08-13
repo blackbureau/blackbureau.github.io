@@ -69,5 +69,28 @@
                 margin-right: auto;
                 
         }
+        
+    /********************************************
+     PAGE: MATIN
+    *********************************************/ 
                 
-            
+    #matin {
+        
+    #rectangle {
+        width:200px;
+        height:200px;
+        border: 1px solid black;
+        background-color: black;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 350px;
+      } 
+    }
+    
+    
+    #matin {
+        background:url(http://40.media.tumblr.com/54ec0784d0289625d9f224e8415dc645/tumblr_npmbk4rUza1rvla60o1_1280.jpg);
+        background-size:cover;
+      }
+    
+   
