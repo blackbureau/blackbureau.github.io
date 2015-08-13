@@ -59,7 +59,7 @@
      PAGE: MAIN
     *********************************************/      
             
-        body a {
+        nav a {
                 font-family: 'Megrim', cursive;
                 font-size: 30px;
                 color:black;
