@@ -1,5 +1,5 @@
     
-    <style>
+    
       /*body {*/
       /*  background-color:white;*/
       /*  animation-name:col;*/
@@ -50,4 +50,6 @@
         margin-top: 350px;
       } 
             
-            </style>
+            p {
+                font-family: 'Monsieur La Doulaise';
+            }
