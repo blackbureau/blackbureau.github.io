@@ -1,4 +1,4 @@
-/*@media screen and (min-width: 660px) {*/
+@media screen and (min-width: 660px) {
     
     /********************************************
      PAGE MAIN
@@ -13,9 +13,9 @@
      PAGE VESPER
     *********************************************/
     
-/*     #rectangle {*/
-/*        margin-top: 5%;*/
-/*      } */
+     #rectangle {
+        margin-top: 20%;
+      } 
       
-/*}*/
+}
 
