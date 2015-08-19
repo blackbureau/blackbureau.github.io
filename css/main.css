@@ -115,3 +115,48 @@
 span {
     color: #fff;
 }
+
+/********************************************
+     PAGE: SATURATED TEXT
+    *********************************************/
+    
+    /*animation*/
+       {
+        background-color: black;
+        animation-name:col;
+        animation-duration:11s;
+        animation-timing-function:liniar;
+        animation-iteration-count:infinite;
+        -webkit-animation-name:col;
+         -webkit-animation-duration:11s;
+         -webkit-animation-timing-function:liniar;
+         -webkit-animation-iteration-count:infinite;
+           -moz-animation-name:col;
+           -moz-animation-duration:11s;
+           -moz-animation-timing-function:liniar;
+           -moz-animation-iteration-count:infinite;
+      }
+      
+      /*body {*/
+      /*  background-color:white;*/
+      /*  animation-name:col;*/
+      /*  animation-duration:10s;*/
+      /*  animation-timing-function:liniar;*/
+      /*  animation-iteration-count:infinite;*/
+      /*}*/
+  
+      
+      @keyframes col {
+       from {background-color: black;}
+       to { background-color:white;}
+      }
+      
+       @-moz-keyframes col {
+       from {background-color: black;}
+       to { background-color: white;}
+      }
+      
+       @-webkit-keyframes col {
+       from {background-color: black;}
+       to { background-color: white;}
+      }
