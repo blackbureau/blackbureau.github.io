@@ -113,16 +113,16 @@
     *********************************************/
 
 span {
-    color: #000;
+    color: #0033CC;
 }
 
-/********************************************
+    /********************************************
      PAGE: SATURATED TEXT
     *********************************************/
     
     /*animation*/
        #text {
-        background-color: black;
+        background-color: #0033CC;
         animation-name:col;
         animation-duration:11s;
         animation-timing-function:liniar;
