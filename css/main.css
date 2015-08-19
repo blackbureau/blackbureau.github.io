@@ -121,7 +121,7 @@ span {
     *********************************************/
     
     /*animation*/
-       {
+       #text {
         background-color: black;
         animation-name:col;
         animation-duration:11s;
