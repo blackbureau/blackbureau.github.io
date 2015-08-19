@@ -147,16 +147,16 @@ span {
   
       
       @keyframes col {
-       from {background-color: black;}
+       from {background-color: #0033CC;}
        to { background-color:white;}
       }
       
        @-moz-keyframes col {
-       from {background-color: black;}
+       from {background-color: #0033CC;}
        to { background-color: white;}
       }
       
        @-webkit-keyframes col {
-       from {background-color: black;}
+       from {background-color: #0033CC;}
        to { background-color: white;}
       }
