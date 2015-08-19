@@ -28,7 +28,7 @@
     *********************************************/
     
     /*animation*/
-      #vesper {
+      .vesper {
         background-color:white;
         animation-name:col;
         animation-duration:9s;
