@@ -148,7 +148,7 @@ span {
       
       @keyframes col {
        from {background-color: #0033CC;}
-       to { background-color:white;}
+       to { background-color:green;}
       }
       
        @-moz-keyframes col {
