@@ -28,7 +28,7 @@
     *********************************************/
     
     /*animation*/
-      #text {
+      .vesper {
         background-color:white;
         animation-name:col;
         animation-duration:9s;
@@ -123,7 +123,7 @@ span {
     /*animation*/
        #text {
         background-color: #0033CC;
-        animation-name:col;
+        animation-name:coll;
         animation-duration:11s;
         animation-timing-function:liniar;
         animation-iteration-count:infinite;
@@ -146,17 +146,17 @@ span {
       /*}*/
   
       
-      @keyframes col {
-       from {background-color: #0033CC;}
-       to { background-color:green;}
-      }
-      
-       @-moz-keyframes col {
+      @keyframes coll {
        from {background-color: #0033CC;}
        to { background-color: white;}
       }
       
-       @-webkit-keyframes col {
+       @-moz-keyframes coll {
+       from {background-color: #0033CC;}
+       to { background-color: white;}
+      }
+      
+       @-webkit-keyframes coll {
        from {background-color: #0033CC;}
        to { background-color: white;}
       }
