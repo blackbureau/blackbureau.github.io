@@ -121,17 +121,17 @@ span {
     *********************************************/
     
     /*animation*/
-       #text {
+ #text {
         background-color: #0033CC;
         animation-name: coll;
         animation-duration:11s;
         animation-timing-function:liniar;
         animation-iteration-count:infinite;
-        -webkit-animation-name:col;
+        -webkit-animation-name:coll;
          -webkit-animation-duration:11s;
          -webkit-animation-timing-function:liniar;
          -webkit-animation-iteration-count:infinite;
-           -moz-animation-name:col;
+           -moz-animation-name:coll;
            -moz-animation-duration:11s;
            -moz-animation-timing-function:liniar;
            -moz-animation-iteration-count:infinite;
