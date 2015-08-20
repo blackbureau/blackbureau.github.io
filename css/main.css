@@ -123,7 +123,7 @@ span {
     /*animation*/
        #text {
         background-color: #0033CC;
-        animation-name:coll;
+        animation-name: coll;
         animation-duration:11s;
         animation-timing-function:liniar;
         animation-iteration-count:infinite;
