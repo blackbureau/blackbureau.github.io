@@ -160,3 +160,37 @@ span {
        from {background-color: #0033CC;}
        to { background-color: white;}
       }
+      
+      
+      /*iframe*/
+ #frame {
+        background-color: white;
+        animation-name: colll;
+        animation-duration:11s;
+        animation-timing-function:liniar;
+        animation-iteration-count:infinite;
+        -webkit-animation-name:colll;
+         -webkit-animation-duration:11s;
+         -webkit-animation-timing-function:liniar;
+         -webkit-animation-iteration-count:infinite;
+           -moz-animation-name:colll;
+           -moz-animation-duration:11s;
+           -moz-animation-timing-function:liniar;
+           -moz-animation-iteration-count:infinite;
+      }
+      
+      @keyframes colll {
+       from {background-color: white;}
+       to { background-color: #0033CC;}
+      }
+      
+       @-moz-keyframes colll {
+       from {background-color: white;}
+       to { background-color: #0033CC;}
+      }
+      
+       @-webkit-keyframes colll {
+       from {background-color: white;}
+       to { background-color: #0033CC;}
+      }
+
