@@ -68,7 +68,7 @@
        to { background-color:black;}
       }
       
-      .rectangle {
+      #rectangle {
         width: 200px;
         height:200px;
         border: 1px solid black;
@@ -88,7 +88,7 @@
                 
     #matin {
         
-    .rectangle {
+    #rectangle {
         width: 200px;
         height:200px;
         border: 1px solid black;
