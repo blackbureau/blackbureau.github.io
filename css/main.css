@@ -102,7 +102,7 @@
     
     #matin {
         background:url(http://40.media.tumblr.com/54ec0784d0289625d9f224e8415dc645/tumblr_npmbk4rUza1rvla60o1_1280.jpg);
-        background-size: 100%;
+        background-size: cover%;
       }
     
    
@@ -214,6 +214,7 @@ span {
         background-image:url(https://41.media.tumblr.com/475050149bf5928fb6bdb7791cd4f29a/tumblr_nu9bgy16ne1rvla60o1_1280.jpg);
        background-size:100%;
        background-repeat:no-repeat;
+       background-cover:100%;
        margin-top:0;
        margin-bottom:0;
     }
