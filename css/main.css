@@ -210,10 +210,16 @@ span {
         font-size: 120px;
         color: white;
         font-family:'Codystar' sans-serif;
+        background-color:black;
         background-image:url(https://41.media.tumblr.com/475050149bf5928fb6bdb7791cd4f29a/tumblr_nu9bgy16ne1rvla60o1_1280.jpg);
        background-size:100%;
+       background-repeat:no-repeat;
        margin-top:0;
        margin-bottom:0;
+    }
+    
+    .small {
+        font-size:20px;
     }
     
     
