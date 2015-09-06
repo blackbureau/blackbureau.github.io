@@ -207,7 +207,7 @@ span {
     *********************************************/
     
     .lettering {
-        font-size: 120px;
+        font-size: 110px;
         color: white;
         font-family:'Codystar' sans-serif;
         background-color:black;
@@ -220,7 +220,7 @@ span {
     
     .smaller {
         font-size:20px;
-        color: pink;
+        color: black;
         font-family:'Codystar' sans-serif;
         padding:0;
         margin:0;
