@@ -206,6 +206,7 @@ span {
      PAGE: Navii
     *********************************************/
     
+    
     #naviani {
         background-color: white;
         animation-name: coll;
@@ -250,7 +251,7 @@ span {
         color: white;
         font-family:'Codystar' sans-serif;
         background-color:black;
-        background-image:url(https://41.media.tumblr.com/475050149bf5928fb6bdb7791cd4f29a/tumblr_nu9bgy16ne1rvla60o1_1280.jpg);
+       
        background-size:cover;
        background-repeat:no-repeat;
    
