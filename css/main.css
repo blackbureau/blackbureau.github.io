@@ -209,7 +209,7 @@ span {
     
     #naviani {
         background-color: white;
-        animation-name: coll;
+        animation-name: colln;
         animation-duration:11s;
         animation-timing-function:liniar;
         animation-iteration-count:infinite;
@@ -232,17 +232,17 @@ span {
       /*}*/
   
       
-      @keyframes coll {
+      @keyframes colln {
        from {background-color: white;}
        to { background-color: navy;}
       }
       
-       @-moz-keyframes coll {
+       @-moz-keyframes colln {
          from {background-color: white;}
        to { background-color: navy;}
       }
       
-       @-webkit-keyframes coll {
+       @-webkit-keyframes colln {
         from {background-color: white;}
        to { background-color: navy;}
       }
@@ -252,9 +252,7 @@ span {
         font-size: 110px;
         color: white;
         font-family:'Codystar' sans-serif;
-        background-color:black;
-       
-       background-size:cover;
+        background-size:cover;
        background-repeat:no-repeat;
    
        margin-top:0;
@@ -266,7 +264,10 @@ span {
         color: black;
         font-family:'Codystar' sans-serif;
         padding:0;
-        margin:0 auto;
+       margin-top:0;
+        margin-bottom:0;
+        margin-left:auto;
+        margin-right:auto;
         
     }
     
