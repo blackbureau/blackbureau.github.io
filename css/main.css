@@ -184,7 +184,7 @@ span {
            -moz-animation-timing-function:liniar;
            -moz-animation-iteration-count:infinite;
            margin: auto;
-           height:45%;
+           height:100%;
       }
       
       @keyframes colll {
