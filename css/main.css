@@ -210,15 +210,15 @@ span {
     #naviani {
         background-color: white;
         animation-name: colln;
-        animation-duration:11s;
+        animation-duration:14s;
         animation-timing-function:liniar;
         animation-iteration-count:infinite;
         -webkit-animation-name:colln;
-         -webkit-animation-duration:11s;
+         -webkit-animation-duration:14s;
          -webkit-animation-timing-function:liniar;
          -webkit-animation-iteration-count:infinite;
            -moz-animation-name:colln;
-           -moz-animation-duration:11s;
+           -moz-animation-duration:14s;
            -moz-animation-timing-function:liniar;
            -moz-animation-iteration-count:infinite;
       }
@@ -255,8 +255,10 @@ span {
         background-size:cover;
        background-repeat:no-repeat;
    
-       margin-top:0;
-       margin-bottom:0;
+      margin-top:0;
+        margin-bottom:0;
+        margin-left:auto;
+        margin-right:auto;
     }
     
     .smaller {
