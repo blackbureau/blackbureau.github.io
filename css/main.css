@@ -169,6 +169,7 @@ span {
       
       /*iframe*/
  #frame {
+     
         background-color: white;
         animation-name: colll;
         animation-duration:11s;
@@ -182,6 +183,8 @@ span {
            -moz-animation-duration:11s;
            -moz-animation-timing-function:liniar;
            -moz-animation-iteration-count:infinite;
+           margin: auto;
+           height:45%;
       }
       
       @keyframes colll {
