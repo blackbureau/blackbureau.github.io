@@ -206,6 +206,45 @@ span {
      PAGE: Navii
     *********************************************/
     
+    #text {
+        background-color: white;
+        animation-name: coll;
+        animation-duration:11s;
+        animation-timing-function:liniar;
+        animation-iteration-count:infinite;
+        -webkit-animation-name:coll;
+         -webkit-animation-duration:11s;
+         -webkit-animation-timing-function:liniar;
+         -webkit-animation-iteration-count:infinite;
+           -moz-animation-name:coll;
+           -moz-animation-duration:11s;
+           -moz-animation-timing-function:liniar;
+           -moz-animation-iteration-count:infinite;
+      }
+      
+      /*body {*/
+      /*  background-color:white;*/
+      /*  animation-name:col;*/
+      /*  animation-duration:10s;*/
+      /*  animation-timing-function:liniar;*/
+      /*  animation-iteration-count:infinite;*/
+      /*}*/
+  
+      
+      @keyframes coll {
+       from {background-color: white;}
+       to { background-color: navy;}
+      }
+      
+       @-moz-keyframes coll {
+         from {background-color: white;}
+       to { background-color: navy;}
+      }
+      
+       @-webkit-keyframes coll {
+        from {background-color: white;}
+       to { background-color: navy;}
+      }
     .lettering {
         font-size: 110px;
         color: white;
@@ -224,7 +263,7 @@ span {
         color: black;
         font-family:'Codystar' sans-serif;
         padding:0;
-        margin:0;
+        margin:0 auto;
         
     }
     
