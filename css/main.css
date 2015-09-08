@@ -210,15 +210,15 @@ span {
     #naviani {
         background-color: white;
         animation-name: colln;
-        animation-duration:14s;
+        animation-duration:17s;
         animation-timing-function:liniar;
         animation-iteration-count:infinite;
         -webkit-animation-name:colln;
-         -webkit-animation-duration:14s;
+         -webkit-animation-duration:17s;
          -webkit-animation-timing-function:liniar;
          -webkit-animation-iteration-count:infinite;
            -moz-animation-name:colln;
-           -moz-animation-duration:14s;
+           -moz-animation-duration:17s;
            -moz-animation-timing-function:liniar;
            -moz-animation-iteration-count:infinite;
       }
