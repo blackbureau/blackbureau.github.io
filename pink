@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>pink</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    
+   
+    <body class="pink">
+        <a href="index.html">
+          <img src="https://36.media.tumblr.com/94b530be5f12c60984fb970cbd05496d/tumblr_nu94sbv2UO1rvla60o1_540.png" alt="">
+                  </a> 
+    </body>
+   
+</html>
