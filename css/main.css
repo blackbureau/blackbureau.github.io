@@ -293,12 +293,12 @@ span {
     /* Chrome, Safari, Opera */
 @-webkit-keyframes updown {
     from {top: 0px;}
-    to {top: 1000px;}
+    to {top: 2000px;}
 }
 
 @keyframes updown {
     from {top: 0px;}
-    to {top: 1000px;}
+    to {top: 2000px;}
 }
     
     
