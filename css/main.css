@@ -281,9 +281,24 @@ span {
     }
     
     #cracker {
-     margin-left: 500px;
+     margin-left: auto;
      margin-right: auto;
+      -webkit-animation: updown 30s infinite;  /* Chrome, Safari, Opera */
+    animation: updown 30s infinite;
+     position: relative;
+    -webkit-animation-timing-function: linear;
     }
+    
+    /* Chrome, Safari, Opera */
+@-webkit-keyframes updown {
+    from {top: 0px;}
+    to {top: 300px;}
+}
+
+@keyframes updown {
+    from {top: 0px;}
+    to {top: 300px;}
+}
     
     
     
