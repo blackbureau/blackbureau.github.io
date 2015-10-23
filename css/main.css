@@ -284,9 +284,9 @@ span {
      margin-left: auto;
      margin-right: auto;
      position: relative;
-     animation: updown 25s infinite;
+     animation: updown 20s infinite alternate;
      -webkit-animation-timing-function: linear;
-     -webkit-animation: updown 25s infinite;  /* Chrome, Safari, Opera */
+     -webkit-animation: updown 20s infinite alternate;  /* Chrome, Safari, Opera */
      animation-timing-function: linear;
      animation-name: updown;
      animation-delay: 4s;
