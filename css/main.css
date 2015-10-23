@@ -284,21 +284,21 @@ span {
      margin-left: auto;
      margin-right: auto;
      position: relative;
-     animation: updown 30s infinite;
+     animation: updown 20s infinite;
      -webkit-animation-timing-function: linear;
-     -webkit-animation: updown 30s infinite;  /* Chrome, Safari, Opera */
+     -webkit-animation: updown 20s infinite;  /* Chrome, Safari, Opera */
      animation-timing-function: linear;
     }
     
     /* Chrome, Safari, Opera */
 @-webkit-keyframes updown {
     from {top: 0px;}
-    to {top: 300px;}
+    to {top: 500px;}
 }
 
 @keyframes updown {
     from {top: 0px;}
-    to {top: 300px;}
+    to {top: 500px;}
 }
     
     
