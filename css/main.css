@@ -288,6 +288,7 @@ span {
      -webkit-animation-timing-function: linear;
      -webkit-animation: updown 25s infinite;  /* Chrome, Safari, Opera */
      animation-timing-function: linear;
+     animation-name: updown;
      animation-delay: 4s;
     }
     
