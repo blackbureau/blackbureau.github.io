@@ -292,18 +292,18 @@ span {
      -webkit-animation: updown 20s infinite alternate;  /* Chrome, Safari, Opera */
      animation-timing-function: linear;
      animation-name: updown;
-     animation-delay: 2s;
+     animation-delay: 3s;
     }
     
     /* Chrome, Safari, Opera */
 @-webkit-keyframes updown {
     from {top: 0px;}
-    to {top: 1600px;}
+    to {top: 1400px;}
 }
 
 @keyframes updown {
     from {top: 0px;}
-    to {top: 1600px;}
+    to {top: 1400px;}
 }
     
     
