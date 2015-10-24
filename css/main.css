@@ -34,14 +34,17 @@
         animation-duration:9s;
         animation-timing-function:liniar;
         animation-iteration-count:infinite;
+        animation-delay: 2s;
         -webkit-animation-name:col;
          -webkit-animation-duration:9s;
          -webkit-animation-timing-function:liniar;
          -webkit-animation-iteration-count:infinite;
+         -webkit-animation-delay: 2s;
            -moz-animation-name:col;
            -moz-animation-duration:9s;
            -moz-animation-timing-function:liniar;
            -moz-animation-iteration-count:infinite;
+           -moz-animation-delay: 2s;
       }
       
       /*body {*/
@@ -289,18 +292,18 @@ span {
      -webkit-animation: updown 20s infinite alternate;  /* Chrome, Safari, Opera */
      animation-timing-function: linear;
      animation-name: updown;
-     animation-delay: 4s;
+     animation-delay: 2s;
     }
     
     /* Chrome, Safari, Opera */
 @-webkit-keyframes updown {
     from {top: 0px;}
-    to {top: 2000px;}
+    to {top: 1600px;}
 }
 
 @keyframes updown {
     from {top: 0px;}
-    to {top: 2000px;}
+    to {top: 1600px;}
 }
     
     
