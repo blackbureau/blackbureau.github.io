@@ -342,7 +342,9 @@ span {
          -o-transform-origin: 0 100%;
             transform-origin: 0 100%;
 }
-#heart:before {
+
+#heart:before,
+#heart:after {
     background-color: red;
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
