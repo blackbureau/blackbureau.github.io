@@ -321,7 +321,7 @@ span {
     position: absolute;
     content: "";
     left: 50px;
-    top: 100px;
+    top: 0px;
     width: 50px;
     height: 80px;
     background: red;
@@ -352,5 +352,10 @@ span {
             transform-origin :100% 100%;
 }
 					
-    
+   .heart {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
     
