@@ -311,7 +311,7 @@ span {
      PAGE: TRUE
     *********************************************/   
     
-    #heart {
+  #heart {
     position: relative;
     width: 100px;
     height: 90px;
@@ -320,12 +320,12 @@ span {
 #heart:after {
     position: absolute;
     content: "";
-    left: 100px;
+    left: 50px;
     top: 0;
-    width: 100px;
+    width: 50px;
     height: 80px;
     background: red;
-    -moz-border-radius: 100px 100px 0 0;
+    -moz-border-radius: 50px 50px 0 0;
     border-radius: 50px 50px 0 0;
     -webkit-transform: rotate(-45deg);
        -moz-transform: rotate(-45deg);
@@ -352,8 +352,5 @@ span {
             transform-origin :100% 100%;
 }
 					
-    
-    
-    
     
     
