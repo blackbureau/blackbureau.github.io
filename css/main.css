@@ -346,22 +346,23 @@ span {
 #heart:before,
 #heart:after {
     background-color: red;
-    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-name: true; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-    animation-name: example;
+    animation-name: true;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes example {
+@-webkit-keyframes true {
     from {background-color: red;}
-    to {background-color: yellow;}
+    to {background-color: white;}
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes true {
     from {background-color: red;}
-    to {background-color: yellow;}
+    to {background-color: white;}
 }
 
 #heart:after {
@@ -378,10 +379,5 @@ span {
             transform-origin :100% 100%;
 }
 					
-   .heart {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+   
     
