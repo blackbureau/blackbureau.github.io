@@ -313,8 +313,8 @@ span {
     
     #heart {
     position: relative;
-    width: 100px;
-    height: 90px;
+    width: 200px;
+    height: 180px;
 }
 #heart:before,
 #heart:after {
