@@ -112,13 +112,15 @@
 PAGE: REALLYREAL  
 *********************************************/ 
 	#real {
-		/*background-color: #CA9D97;*/
+		
 		font-family: 'Open Sans', sans-serif;
 		font-family: 'Cormorant Garamond', serif;
 		color:white;
        		background: url(https://yspol.files.wordpress.com/2013/05/img_3074-e1447141541818.jpg?w=1280); 
   		background-repeat:repeat;
 		}
+	h1 {	background-color: #CA9D97;
+}
 	
 	#locator { 
 		position: absolute; visibility: visible; left: 400px; top: 300px; z-index: 200; 
