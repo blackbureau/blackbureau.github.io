@@ -120,15 +120,15 @@ PAGE: REALLYREAL 
 		}
 
 	h1 {	color: #CA9D97;
-}
+		}
 	
 	#locator { 
 		position: absolute; visibility: visible; left: 400px; top: 300px; z-index: 200;
-		
 		} 
 
-pre {
-	font-family: 'Crimson Text', serif;
+	pre {
+		font-family: 'Crimson Text', serif;
+		color: #4842f4;
 }
 
 
