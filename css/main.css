@@ -115,9 +115,10 @@
 PAGE: REALLYREAL  
 *********************************************/ 
 	#real {
-		background-color: #CA9D97
-	}
-	
+		background-color: #CA9D97;
+		font-family: 'Open Sans', sans-serif;
+		font-family: 'Cormorant Garamond', serif;
+}
    
      /********************************************
      PAGE: TEXTME
