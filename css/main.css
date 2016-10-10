@@ -123,7 +123,8 @@ PAGE: REALLYREAL 
 }
 	
 	#locator { 
-		position: absolute; visibility: visible; left: 400px; top: 300px; z-index: 200; 
+		position: absolute; visibility: visible; left: 400px; top: 300px; z-index: 200;
+		cursor:url(http://66.media.tumblr.com/0c3cd237b9cd395d4b4da08430263604/tumblr_o08etbOg2C1ucv5gno1_1280.jpg), auto;
 		} 
       	
 
