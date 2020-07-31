@@ -12,11 +12,11 @@
         }
         
         div {
-           	position: absolute; 
-		visibility: visible; 
-		left: 400px; 
-		top: 300px; 
-		z-index: 200;
+           	position: fixed; 
+		left: 50%; 
+		top: 50%; 
+		width: 600 px;
+		transform: translate(-50%, -50%)
         }
         
         html {
@@ -31,6 +31,7 @@
         }
         
         h1 {
+		position: fixed;
             font-size: 50px;
 	    text-align: center;
         }
@@ -56,6 +57,7 @@
             }
             h1 {
                 font-size: 30px;
+		    transform: rotate(180deg);
             }
             li {
                 display: block;
