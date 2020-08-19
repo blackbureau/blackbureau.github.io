@@ -84,28 +84,49 @@
     </header>
 	
 	<!--dropdown menu-->
-	
-	<section class="poetry-dropdown">
-	  <label for="poetry">the visual construction of</label>
-      	      <select id="poetry" name="poetry">
-		  <option value="clouds">Clouds</option>
-		  <option value="blue">Blue</option>
-		  <option value="vertigo">Vertigo</option>
-          </select>
-	</section>
-	<br>
-	
-	<!--radio button-->
-	
-	<section class="redress">
-		<span class="spancolor">having fallen prey to an essay about redressing</span>
-			<br>
-				<input type="radio" id="redness" name="essay" value="redness">
-				<label for="redness">redness</label>
+	<form>
+		
+	  <section class="check">
+		  <p>the way to winter is</p> <!--alternatively use span? -->
+		  <br>
+		  
+		  <!--input= type name id value -->
+			  <input type="checkbox" name="winter" id="detailed" value="detailed">
+			  <label for="detailed">detailed</label>
+		  
+		  	  <input type="checkbox" name="winter" id="silky" value="silky">
+			  <label for="silky">silky</lable>
+		  	
+			  <input type="checkbox" name="winter" id="egg-shaped" value="egg-shaped">
+			  <label for="egg-shaped">egg-shaped</label>
+		  
+		 
+		</section>
+		<section class="poetry-dropdown">
+			<!--use <label> to make the text visible on the website-->
+		  <label for="poetry">the visual construction of</label>
+		      <select id="poetry" name="poetry">
+			  <option value="clouds">Clouds</option>
+			  <option value="blue">Blue</option>
+			  <option value="vertigo">Vertigo</option>
+		  </select>
+		</section>
+		<br>
 
-				<input type="radio" id="vertigo" name="essay" value="vertigo">
-				<label for="vertigo">vertigo</label>
-	</section>
+		<!--radio button-->
+
+		<section class="redress">
+			<span class="spancolor">having fallen prey to an essay about redressing</span>
+				<br>
+					<!--group radio buttons together by assigning same name-->
+					<input type="radio" id="redness" name="essay" value="redness">
+					<label for="redness">redness</label>
+
+					<input type="radio" id="vertigo" name="essay" value="vertigo">
+					<label for="vertigo">vertigo</label>
+		</section>
+		
+	</form>
   <br>
     <div>
         <img src="https://64.media.tumblr.com/89ecb6dd70d9c0044e802f02f53e391c/96103a0ca77fa926-49/s640x960/5c0df6d607470185b89fab63ec77fdd9666814dc.jpg">
