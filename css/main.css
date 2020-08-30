@@ -394,7 +394,12 @@ PAGE: REALLYREAL 
   	transition: color 0.3s;
 }
 
+
 <!--.first li {
 	color: #01ff70;
 }-->
+
+.nav-first a:hover {
+  color: #01ff70;
+}
     
