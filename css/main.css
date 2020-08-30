@@ -394,12 +394,13 @@ PAGE: REALLYREAL 
   	transition: color 0.3s;
 }
 
-
-.nav-first li {
-	text-decoration: none;
-}
-
 .nav-first a:hover {
   color: #01ff70;
+}
+
+.nav-first ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
     
