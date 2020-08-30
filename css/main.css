@@ -395,9 +395,9 @@ PAGE: REALLYREAL 
 }
 
 
-<!--.first li {
-	color: #01ff70;
-}-->
+.nav-first li {
+	text-decoration: none;
+}
 
 .nav-first a:hover {
   color: #01ff70;
