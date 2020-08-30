@@ -104,7 +104,7 @@
     
     
     #matin {
-        background:url(http://40.media.tumblr.com/54ec0784d0289625d9f224e8415dc645/tumblr_npmbk4rUza1rvla60o1_1280.jpg);
+        background:url(https://40.media.tumblr.com/54ec0784d0289625d9f224e8415dc645/tumblr_npmbk4rUza1rvla60o1_1280.jpg);
         background-size: 100%;
       }
     
@@ -382,5 +382,19 @@ PAGE: REALLYREAL 
             transform-origin :100% 100%;
 }
 					
-    
+     /********************************************
+   FIRST
+    *********************************************/ 
+
+
+.nav-first {
+  	color: #1f1f1f;
+  	text-decoration: none;
+  	margin: 0 0 0 32px;
+  	transition: color 0.3s;
+}
+
+<!--.first li {
+	color: #01ff70;
+}-->
     
