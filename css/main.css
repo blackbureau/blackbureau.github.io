@@ -387,7 +387,7 @@ PAGE: REALLYREAL 
     *********************************************/ 
 
 
-ul {
+.nav-first a {
   	color: #1f1f1f;
   	text-decoration: none;
   	margin: 0 0 0 32px;
