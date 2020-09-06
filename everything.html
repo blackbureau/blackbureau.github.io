@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Hello!</title>
+        <style>
+        header {
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            color: white;
+            padding: 20px 0 30px 0;
+        }
+	    
+	body {
+		font-family: 'Crimson Text', serif;
+		padding: 10px 0 0 30px;
+		margin: auto;
+		width: 80%;
+		background: black;
+	    }
+
+   .circle {
+    position: relative;
+    margin-left: 600px;
+     margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 100px;
+    }    
+              
+  img {
+		 position: relative;
+		 margin: 0 auto;
+        }
+			
+	h1 {
+		top: 40px;
+		font-size: 50px;
+		transform: rotate(180deg);
+	    }
+
+	    <!--
+        @media (max-width: 500px) {  
+            }-->
+
+ .like {
+      margin-top: 4px;
+          } 
+  
+  .pleasure-of,
+  .construct {
+      margin: 3px;
+      }
+   
+  .making,
+  .poetry-dropdown,
+  .check,
+  .redress,        
+  .pleasure,
+  .slider {
+		color: white;
+    
+
+ 
+  
+          
+          
+    </style>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  
+  
+  
+  <body>
+     <header>
+        <h1>nothing and everything</h1>
+      <!--  <ul>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Poems</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+	 -->
+    </header>
+
+	<!--checkbox-->
+	<form>
+	  <section class="check">
+		  <p>1. The way to winter is:</p> <!--alternatively use span? -->
+		  
+		  <!--input= type name id value -->
+			  <input type="checkbox" name="winter" id="detailed" value="detailed">
+			  <label for="detailed">detailed</label><br>
+		  
+		  	  <input type="checkbox" name="winter" id="silky" value="silky">
+			  <label for="silky">silky</label><br>
+			
+			  <input type="checkbox" name="winter" id="fictional" value="fictional">
+			  <label for="fictional">fictional</label><br>
+      
+       		</section>
+		<br>
+		<br>
+		 <!--  <hr> it's a line! -->
+		<!--dropdown menu-->
+		 
+		
+		<section class="poetry-dropdown">
+		<!--use <label> to make the text visible on the website-->
+		  <label class="construct" for="poetry">2. The visual construction of</label>
+		      <select id="poetry" name="poetry">
+			  <option value="clouds">Clouds</option>
+			  <option value="blue">Blue</option>
+			  <!--<option value="vertigo">Vertigo</option>-->
+		      </select>
+		</section>
+		<br>
+		<br>
+
+		<!--radio button-->
+
+		<section class="redress">
+			<span class="spancolor">3. Falling prey to an essay about redressing</span>
+				<br>
+					<!--group radio buttons together by assigning same name-->
+					<input type="radio" id="redness" name="essay" value="redness">
+					<label for="redness">redness</label>
+
+					<input type="radio" id="vertigo" name="essay" value="vertigo">
+					<label for="vertigo">vertigo</label>
+		</section>
+
+	<!-- slider -->
+    
+    <br>
+		<br>
+    <section class="slider">
+        <label for="hair">4. His clothes and hair smelled like: </label>
+      <br>
+          <span>a. The inside of a stolen car</span>
+          <input type="range" name="hair" id="hair" value="3" min="1" max="5">
+          <span>A glorious future</span>
+      <br>
+          <span>b. A horticultural absurdity</span>
+          <input type="range" name="hair" id="absurdity" value="3" min="1" max="5">
+          <span>Sacred detritus</span>
+      <br>
+      <span>c. Nature's confetti</span>
+          <input type="range" name="hair" id="confetti" value="3" min="1" max="5">
+          <span>An error message</span>
+      
+        <br>
+        <br>
+    </section>
+  <br> 
+  <br>
+    
+    <!-- THE PLEASURE OF - DROPDOWN -->
+    
+    <section class="pleasure">
+      <label class="pleasure-of" for="pleasures">5. The pleasure of</label>
+      <select id="pleasures" name="pleasures">
+        <option value="rowing">a golden rowing machine</option>
+        <option value="tresspassing">tresspassing</option>
+        <option value="inertia">inertia</option>
+        <option value="tasting-thoughts">tasting thoughts</option>
+         </select>
+        </section>
+    <br>
+    <br>
+    
+    <!--TEXT BOX-->
+     <section class="making">
+    <label for="write">6. Avoid making eye contact with:</label>
+      <br>
+      <textarea class="like" id="write" name="write" cols="30" rows="5">(for example: the rain)
+      </textarea>
+    </section>
+    <br>
+    <br>
+   <!-- <section class="submission">
+    <input type="submit" value="submit"> -->
+    </section>
+    </form> 
+  
+    <div class="circle"></div>
+  
+
+         
+    </body>
+    
+    </html>
