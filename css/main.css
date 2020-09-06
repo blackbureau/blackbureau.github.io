@@ -79,9 +79,10 @@
         height:200px;
         border: 1px solid black;
         background-color: black;
-        margin-left: auto;
+     /*   margin-left: auto;
         margin-right: auto;
-        margin-top: center;
+        margin-top: center;*/
+	      margin: 0 auto;
       } 
       
       
