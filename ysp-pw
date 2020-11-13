@@ -8,7 +8,8 @@
     <title>Claire Yspol</title>
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+          <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
