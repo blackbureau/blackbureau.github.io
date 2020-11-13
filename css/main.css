@@ -404,4 +404,95 @@ PAGE: REALLYREAL 
   margin: 0;
   padding: 0;
 }
+
+/*******************************************
+ysp-pw
+********************************************/
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+ 
+}
+
+a {
+   padding: 20px 0 20px 0;
+  float: right;
+  text-decoration: none;
+  padding: 3px;
+  transition: 1s;
+  color: white;
+  background-color: red;
+  letter-spacing: 2px;
+}
+
+#first:hover {
+  background-color: black;
+  color: white;
+}
+  
+
+h1 {
+  width: 141px;
+letter-spacing: 2px;
+ font-size: 20px;
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 3px 0 0 3px;
+
+ 
+}
+
+h2 {
+
+  width: 400px;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+h3 {
+  padding: 40px 0 0 0;
+}
+
+p {
+  width: 500px;
+  padding: 3px;
+
+}
+
+
+img {
+  padding: 40px 0 0 0;
+  margin:auto;
+}
+
+.smaller {
+  width: 500px;
+  display: block;
+}
+
+#second {
+    float: left;
+  text-decoration: none;
+  padding: 0 0 20px 0;
+  color: red;
+  background-color: transparent;
+}
+
+#top {
+  float: right;
+  color: white;
+}
+
+#top:hover {
+  background-color: black;
+  color: white;
+}
+
+.description {
+   margin:auto;
+  
+  padding: 5px 0 0 0;
+}
     
