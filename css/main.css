@@ -115,12 +115,12 @@ PAGE: REALLYREAL 
 	#real {
 		
 		font-family: 'Crimson Text', serif;
-		color:white;
        		background: url(https://yspol.files.wordpress.com/2013/05/img_3074-e1447141541818.jpg?w=1280); 
   		background-repeat:repeat;
 		}
 
 	h1 {	color: #CA9D97;
+		background-color:transparent;
 		}
 	
 	#locator { 
