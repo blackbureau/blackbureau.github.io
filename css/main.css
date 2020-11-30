@@ -111,7 +111,7 @@
  /********************************************     
 PAGE: REALLYREAL  
 *********************************************/ 
-	#real {
+/*	#real {
 		
 		font-family: 'Crimson Text', serif;
        		background: url(https://yspol.files.wordpress.com/2013/05/img_3074-e1447141541818.jpg?w=1280); 
@@ -126,6 +126,8 @@ PAGE: REALLYREAL 
 		position: absolute; visibility: visible; left: 400px; top: 250px; z-index: 200;
 		} 
 
+
+*/
 
     /********************************************
      PAGE: SATURATED TEXT
