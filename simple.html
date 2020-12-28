@@ -4,15 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Kufam:ital@0;1&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css2?family=Kufam:ital@0;1&display=swap" rel="stylesheet">
 
     <title>black bureau</title>
     
     <!-- import the webpage's stylesheet -->
 
 <link rel="stylesheet" href="css/normalize.css">
-    
+	  <script>
+		var angle = 0;
+
+		var changeBackground = function () {
+
+		angle = angle + .2;
+
+		document.body.style.backgroundImage = "linear-gradient("+ angle + "deg, #f173fa, #7cfa73)"
+
+		requestAnimationFrame(changeBackground)
+		}
+
+		changeBackground()
+	  </script>
     <style>
     
 	    html {
@@ -32,11 +44,10 @@
 	    }
 
     a {
-  color: #fffc36; 
-  text-decoration: none;
-  margin: 0 0 0 0 px; 
-  transition: color 4s ease-out;
-
+	  color: #fffc36; 
+	  text-decoration: none;
+	  margin: 0 0 0 0 px; 
+	  transition: color 4s ease-out;
     }
       
     a:hover {
@@ -66,7 +77,7 @@
       }
 	    
 .black-circle:hover {
-	background-color: #000;
+		background-color: #000;
 	    }    
 	    
 	  .black-circle:visited {
@@ -87,22 +98,19 @@
 	  
  	  
 	  
-<nav>
+	<nav>
+		<h1 class="grad"><a href="/vesper.html" target="_blank">vesper</a></h1> 
 
-  <h1 class="grad"><a href="/vesper.html" target="_blank">vesper</a></h1> 
-    
-    <h1 class="grad"><a href="/notations.html" target="_blank">notations</h1>
-    
-  <h1 class="grad"><a href="/reallyreal.html" target="_blank">really real</a></h1> 
+		<h1 class="grad"><a href="/notations.html" target="_blank">notations</h1>
 
-    <h1 class="grad"><a href="/saccharine-strangers.html" target="_blank">saccharine strangers</a></h1>
-   
-    <h1 class="grad"><a href="/everything.html" target="_blank">everything and nothing</a></h1>
-	
-    
-<a href="https://claireyspol.com/" target="_blank"><div class="black-circle"></div></a>
-   
-</nav> 
+		<h1 class="grad"><a href="/reallyreal.html" target="_blank">really real</a></h1> 
+
+		<h1 class="grad"><a href="/saccharine-strangers.html" target="_blank">saccharine strangers</a></h1>
+
+		<h1 class="grad"><a href="/everything.html" target="_blank">everything and nothing</a></h1>
+
+		<a href="https://claireyspol.com/" target="_blank"><div class="black-circle"></div></a>
+	</nav> 
 	
 <!--<video autoplay muted loop id="myVideo">
   <source src="https://va.media.tumblr.com/tumblr_qgjvboZC3X1sorpt1_720.mp4">
