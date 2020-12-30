@@ -1,116 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Kufam:ital@0;1&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Texturina:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
 
-
-    <title>black bureau</title>
-    
     <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/move.css" />
 
-<link rel="stylesheet" href="css/normalize.css">
-    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <title>Hello!</title>
+
+    <!---------------------------------------------------------
+			CSS
+----------------------------------------------------------->
     <style>
 	    
+      /* the links */
+      a {
+        color: blue;
+        text-decoration: none;
+        margin: 10px 0 10px 10px;
+        transition: color 4s ease-out;
+        font-size: 18px;
+        display: block;
 
-      
-	    
-	    html {
-	/* background-color: #fff06b; */
-		   /* background-color: #ffebeb; blush*/
-		   background-color: #ababab;
-	    }
-	    
-	    nav {
-	    position: fixed;
-	    }
-	    
-	    h1 {
-	    margin-left: 20px;
-		    font-size: 40px;
-        font-family: 'Kufam', cursive;
-	    }
-
-    a {
-  color: #fffc36; 
-  text-decoration: none;
-  margin: 0 0 0 0 px; 
-  transition: color 4s ease-out;
-
-    }
-      
-    a:hover {
-      color: #ababab; /*#01ff70 green*/
-      font-style: italic;
-      text-decoration: line-through;
       }
-      
-   /* a:active {
-	color: black;
-	} */
-	
-	    a, a:active, a:focus {
+
+      a:hover {
+        color: #051ceb;
+        font-style: italic;
+        text-decoration: line-through;
+      }
+
+      a,
+      a:active,
+      a:focus {
         outline: none;
-	    }
+      }
 
-.black-circle {
-	background-color: #fff ;
-/*	background-color: #01ff70;--> */
-        height:30px;
+      .black-circle {
+        background-color: blue;
+        height: 30px;
         width: 30px;
-        border-radius: 100%; 
-        margin-left: 20px; 
-	margin-top: 20px;
-	transition: background-color 1s ease-out;
+        border-radius: 100%;
+        margin-left: 10px;
+        margin-top: 5px;
+	margin-bottom:15px;
+        transition: background-color 1s ease-out;
 	display: inline-block;
+        position: relative;
+        top: 10px;
+	
+      }
+
+      .black-circle:hover {
+        background-color: #000;
+      }
+
+      .black-circle:visited {
+        background-color: #fff;
+      }
+
+      .totheright {
+        bottom: 80px;
+        padding-left: 10px;
+        display: inline-block;
       }
 	    
-.black-circle:hover {
-	background-color: #000;
-	    }    
+	#monolith {
+        height: 400px;
+        width: 25%;
+        margin-left: 15px;
+	margin-top: 20px;
+		
+      }
 	    
-	  .black-circle:visited {
-		background-color: #fff;	    }
-
-/*#myVideo {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-}    */
     </style>
-  </head>  
-  
-  
+
+    <!---------------------------------------------------------
+			END CSS
+----------------------------------------------------------->
+  </head>
+
   <body>
-	  
- 	  
-	  
-<nav>
 
-  <h1 class="grad"><a href="/vesper.html" target="_blank">vesper</a></h1> 
-    
-    <h1 class="grad"><a href="/notations.html" target="_blank">notations</h1>
-    
-  <h1 class="grad"><a href="/reallyreal.html" target="_blank">really real</a></h1> 
-
-    <h1 class="grad"><a href="/saccharine-strangers.html" target="_blank">saccharine strangers</a></h1>
-   
-    <h1 class="grad"><a href="/everything.html" target="_blank">everything and nothing</a></h1>
-	
-    
-<a href="https://claireyspol.com/" target="_blank"><div class="black-circle"></div></a>
-   
-</nav> 
-	
-<!--<video autoplay muted loop id="myVideo">
-  <source src="https://va.media.tumblr.com/tumblr_qgjvboZC3X1sorpt1_720.mp4">
-</video> -->
-	
-	
+    <nav>
+	<a href="https://claireyspol.com/" target="_blank"><div class="black-circle"></div></a>
+	<a class="totheright" href="/saccharine-strangers.html" target="_blank">saccharine strangers</a>
+	<a class="totheright" href="/everything.html" target="_blank">everything and nothing</a><br>     
+	<a class="totheright" href="/vesper.html" target="_blank">vesper</a>
+	<a class="totheright" href="/notations.html" target="_blank">notations</a>
+	<a class="totheright" href="/reallyreal.html" target="_blank">really real</a>
+    </nav>
+	  
+<div id="monolith">
+	<img src="/img/Yspol_Monolith-sm.jpg">
+</div>  
+	  
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
