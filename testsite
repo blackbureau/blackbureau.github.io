@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <title>vesper</title>
+   
+    <style>
+        
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /*animation*/
+      .vesper {
+        background-color:white;
+        animation-name:col;
+        animation-duration:9s;
+        animation-timing-function:liniar;
+        animation-iteration-count:infinite;
+        animation-delay: 2s;
+        -webkit-animation-name:col;
+         -webkit-animation-duration:9s;
+         -webkit-animation-timing-function:liniar;
+         -webkit-animation-iteration-count:infinite;
+         -webkit-animation-delay: 2s;
+           -moz-animation-name:col;
+           -moz-animation-duration:9s;
+           -moz-animation-timing-function:liniar;
+           -moz-animation-iteration-count:infinite;
+           -moz-animation-delay: 2s;
+      }
+   
+
+
+  /* body {
+      /*  background-color:white;*/
+      /*  animation-name:col;*/
+      /*  animation-duration:10s;*/
+      /*  animation-timing-function:liniar;*/
+      /*  animation-iteration-count:infinite;*/
+      /*}*/ 
+  
+      
+      @keyframes col {
+       from {background-color: white;}
+       to { background-color:black;}
+      }
+      
+       @-moz-keyframes col {
+       from {background-color: white;}
+       to { background-color:black;}
+      }
+      
+       @-webkit-keyframes col {
+       from {background-color: white;}
+       to { background-color:black;}
+      }
+   
+            #rectangle {
+            width: 200px;
+            height:200px;
+            background-color: black;
+   
+      } 
+        
+        
+        </style>
+    </head>
+    
+    <body class="vesper">
+    
+        <div id="rectangle"></div>
+      
+    </body>
+   
+</html>
