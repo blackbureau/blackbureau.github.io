@@ -1,0 +1,5 @@
+body{font-family:helvetica,arial,sans-serif;margin:2em}.current-col{font-size:19px;width:150px}
+.black-circle{height:100px;width:100px;background:#87ed8b;border-radius:100%;float:right}
+.black-circle:hover{background-color:#fcf151}pre{font-family:'Crimson Pro',serif}
+.box{position:fixed;top:0;left:0;color:#fff;transition:all 1s;display:inline;
+  font-family:'Crimson Pro',serif}.sentient{width:250px}p{color:#fff}.this{position:absolute;position:fixed;right:30px;display:block}
