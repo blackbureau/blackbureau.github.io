@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  
+  
+  <body>
+    
+    <a-scene background="color: #ffe09c">
+      
+    <a-assets>
+        <img
+          id="pinkrandom" src="https://cdn.glitch.com/8eab21d5-f4a2-4b15-8096-64ce93d1fdcd%2Fbluegoldpink0511_171952.jpg?v=1616856618623"
+        />
+      
+      <img
+          id="black" src="https://cdn.glitch.com/8eab21d5-f4a2-4b15-8096-64ce93d1fdcd%2Fshadowstone_155022.JPG?v=1616861238609"
+        />
+      
+       <img
+          id="dotted" src="https://cdn.glitch.com/8eab21d5-f4a2-4b15-8096-64ce93d1fdcd%2FOBLIQUE_ii_180759.jpg?v=1616860132233"
+        />
+      
+      <img
+          id="sockrandom" src="https://cdn.glitch.com/8eab21d5-f4a2-4b15-8096-64ce93d1fdcd%2FYSPOL__Hyper_saturation___small.jpg?v=1616857246565"
+        />
+      
+            <img
+          id="yellowrandom" src="https://cdn.glitch.com/8eab21d5-f4a2-4b15-8096-64ce93d1fdcd%2Fgrilliglight.JPG?v=1616858151458"
+        />
+      
+      </a-assets>
+      
+<!--       <a-entity 
+        position="2.5 1.1 -5" 
+        rotation="45 0 0"     
+        geometry="primitive: circle; radius: 2" 
+        material="side: double; color:red;" 
+      ></a-entity>
+      
+     <a-entity 
+        geometry="primitive: box; width: 1; height: 10; depth: 1"
+        position="2.5 1.1 -5"
+        material="color: silver;"
+     ></a-entity> -->
+      
+           <a-entity 
+        geometry="primitive: box; width: 5; height: 7; depth: .2"
+       animation="property: rotation.y; from: 0; to: 360; dur: 6000; dir: reverse; loop: true; easing: linear;" material="src:#yellowrandom"
+        position="-6.5 0.1 -5"
+     ></a-entity>
+
+      
+      <a-entity 
+        geometry="primitive: box; width: 5; height: 7; depth: .2"
+rotation="0 45 0" material="side: double; color:#d982cd;"
+        position="-6.5 0.1 -8"
+     ></a-entity>
+      
+      <a-entity geometry="primitive: sphere; segmentsWidth: 2; segmentsHeight: 8"
+                material="side: double; color:yellow;"
+        position="-6.5 5.1 -8"
+                ></a-entity>
+      
+      
+      <a-entity 
+        geometry="primitive: box; width: 5; height: 7; depth: .2"
+       rotation="0 -45 0" material="src:#black"
+        position="6.5 0.1 -13"
+     ></a-entity>
+    
+      
+<!--    <a-light type="directional" intensity="1.5" position="3 -17 7"></a-light> 
+       -->
+<!-- <a-entity 
+        geometry="primitive: box; width: 5; height: 5; depth: .2"
+        rotation="0 45 0"
+        material="src:#sockrandom"
+        position="-1.5 -1 -8"
+     ></a-entity> -->
+    
+    
+         <a-box
+        position="-3 -1.6 -5"
+        scale="3 3 3"
+        animation="property: position; to: 1 8 -10; dur: 0; easing: linear; loop: false"
+        src="#dotted"
+      ></a-box> 
+    
+    
+    
+    
+    
+    
+    
+    
+    </a-scene>
+        
+  </body>
+</html>
