@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+#new {
+  background-color: green;
+  height: 30px;
+  width: 30px;
+}
+
+input{
+background-color: green;
+  color: white;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.testpress {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 20%;
+  margin: 5px;
+}
+
+.testpress2 {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20%;
+  margin: 5px;
+}
+
+
+button {
+  background-color: #34eb80;
+  color:white;
+}
+
+.two {
+  background-color: #ff66fc;
+}
+
+.yellow-text {
+  color:white;
+  position: absolute;
+  right: 30px;
+}
