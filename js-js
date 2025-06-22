@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+</head>
+<body>
+
+
+<header>
+    <h1>
+      love this
+  </h1>
+  <br>
+  
+  
+  </header>
+  <a href="/sound.html">claire's new web thing</a>
+  
+  <p>
+    oefenen met knoppen. druk op knop om de achtergrond te veranderen!
+  </p>
+  
+  
+  <div class = "trashy">
+    <p>
+      trashy scenes
+    </p>
+  </div>
+  
+  <div class = "silver">
+    <p>
+      silver strip contrast, <span>cinematic</span> paper opera
+    </p>
+  </div>
+  
+    <div class = "nothing">
+    <p>
+      nothing and <span>everything</span>
+    </p>
+  </div>
+  
+    <div class = "mind">
+    <p>
+     the <span>mind</span> doing backflips
+    </p>
+  </div>
+
+
+</body>
+</html>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+
